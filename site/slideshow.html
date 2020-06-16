@@ -1,98 +1,124 @@
 <html>
 
 <head>
-<title>Slideshow</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
+  <title>Slideshow</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
+    body {
+      font-family: Verdana, sans-serif;
+    }
 
-body {
-  background-image: url("img/glowing-neon-lights-background_23-2148453931.jpg") ;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
+    .mySlides {
+      display: none;
+    }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+    img {
+      vertical-align: middle;
+    }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
-</style>
+    body {
+      background-image: url("img/glowing-neon-lights-background_23-2148453931.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .text {
+        font-size: 11px
+      }
+    }
+  </style>
 </head>
 
 <body>
 
   <div class="slideshow-container">
 
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 1.52.42 PM.jpeg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 1.46.58 PM.jpeg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 1.46.57 PM.jpeg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 1.46.55 PM.jpeg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 1.46.54 PM.jpeg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 1.46.53 PM.jpeg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-14 at 1.11.34 AM(1).jpeg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-14 at 1.11.35 AM.jpeg" style="width:100%">
+    <div class="w3-content w3-section" style="max-width:500px">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 1.52.42 PM.jpeg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 1.46.58 PM.jpeg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 1.46.57 PM.jpeg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 1.46.55 PM.jpeg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 1.46.54 PM.jpeg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 1.46.53 PM.jpeg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-14 at 1.11.34 AM(1).jpeg"
+        style="width:100%">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-14 at 1.11.35 AM.jpeg" style="width:100%">
 
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-14 at 1.11.36 AM.jpeg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.19 PM.jpeg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.16 PM.jpeg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.05 PM.jpeg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.04 PM.jpeg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.03 PM.jpeg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.02 PM.jpeg" style="width:100%">
- 
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.06 PM.jpeg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.07 PM.jpeg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-14 at 1.11.36 AM.jpeg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.19 PM.jpeg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.16 PM.jpeg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.05 PM.jpeg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.04 PM.jpeg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.03 PM.jpeg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.02 PM.jpeg" style="width:100%">
 
-</div>
-</div>
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.06 PM.jpeg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="img/WhatsApp Image 2020-06-10 at 3.02.07 PM.jpeg" style="width:100%">
 
-<script>
-var myIndex = 0;
-carousel();
+    </div>
+  </div>
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 5000); // Change image every 2 seconds
-}
-</script>
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 5000); // Change image every 2 seconds
+    }
+  </script>
 
 </body>
+
 </html>
